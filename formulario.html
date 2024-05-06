@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulario de Registro</h1>
+    </header>
+
+    <main>
+      <section>
+        <form>
+                <div>
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" placeholder="Juan Carlos" required />
+                </div>
+
+                <br>
+
+                 <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" placeholder="Moreno" required />
+                </div>
+
+                <p>Modalidad de la cursada:
+                    <div>
+                        <div>
+                            <input type="radio" id="ondemand" name="modalidad" />
+                            <label for="ondemand">Ondemand</label>
+                          </div>
+              
+                          <div>
+                            <input type="radio" id="vivo" name="modalidad" />
+                            <label for="vivo">En vivo</label>
+                          </div>
+                    </div>
+                </p>
+
+                <div>
+                    <label for="email">Correo:</label>
+                    <input type="email" placeholder="email@gmail.com" id="email" />
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="terminos" required />
+                    <label for="terminos">Deseo recibir informacion sobre nuevos posteos en la plataforma Nucba.</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="terminos" required />
+                    <label for="terminos">Declaro quu lei los terminos y condiciones y estoy listo para convertirme en un desarrollador web Full Stack</label>
+                </div>
+
+                <br>
+
+                <input type="submit" value="Enviar" />
+
+        </form>
+      </section>
+    </main>
+
+    <br>
+    <footer>Creado por VM</footer>
+  </body>
+</html>
